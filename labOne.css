@@ -1,0 +1,142 @@
+body {
+    font: normal 100% arial, Helvetica, "sans-serif";
+    margin: 0;
+    padding: 0;
+    color: #000;
+    line-height: 1.5em;
+}
+
+h1{
+    width: 100%;
+    height: auto;
+    color: #340834;
+    font-size: 2.125em;
+    padding: 2.5% 2% 2% 2%;
+    border: 0;
+    margin: 0;
+}
+
+h2 {
+    width: 100%;
+    height: auto;
+    color: #591959;
+    padding-left: 2.5%;
+    border-bottom: 0.125em solid #FF33FF;
+    margin: 0;
+}
+
+p{
+    width: 90%;
+    font-size: 1.0em;
+    text-align: left;
+    padding: 1% 3% 0 3%;
+}
+
+.highlight{
+    color: #FF33FF;
+}
+
+.breadCrumbTrail{
+    float: left;
+    width: 100%;
+    color: #9D9C9D;
+    margin: 0% 1% 1% 1%;
+}
+
+.breadCrumbTrail a{
+    color: #9D9C9D;
+    text-decoration: none;
+}
+
+.breadCrumbTrail a:hover, .breadCrumbTrail a:active, .breadCrumbTrail a:focus {
+    color: #2A2A2F;
+}
+
+.about{
+    float: left;
+    background-color: #C4C3C4;
+    color: #2B282B;
+    margin: 5px;
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+    border: 0.25em solid #9D9C9D;
+    border-radius: 20px;
+}
+
+.image{
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+.about img{
+    height: 105px;
+    width: 82px;
+    border: 0.1875em solid #FF33FF;
+    margin: 0;
+}
+
+.imageCaption{
+    width: 100%;
+    color: #340834;
+    font-size: 0.25em;
+}
+
+.navigationBar{
+    width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0 0 1% 0;
+}
+
+.navigationBar ul {
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #520052;
+    padding: 0;
+    border: 0;
+    margin:0;
+}
+
+.navigationBar ul li {
+    display: inline;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+a.navigationBarLink {
+    float: left;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #520052;
+    padding: 0.25% 1% 0.25% 1%;
+    border: 0;
+    margin: 0;
+}
+
+a.navigationBarLink:hover, a.navigationBarLink:active, a.navigationBarLink:focus {
+    background-color: #FF33FF;
+}
+
+a.link{
+    color: #A319A3;
+}
+
+a.link:hover, a.link:active, a.link:focus {
+    color: #FF33FF;
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: #9D9C9D;
+    padding: 2%;
+    border-top: #2A2A2F solid 0.125em;
+    margin-top: 3%;
+}
